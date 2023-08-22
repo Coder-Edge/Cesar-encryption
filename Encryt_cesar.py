@@ -1,5 +1,5 @@
 
-def encryte_message():
+def encryt_message():
 
     list_letter = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L',
                    'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
@@ -19,11 +19,11 @@ def encryte_message():
 
         return '?'
 
-    encrypte_message = str()
+    encrypt_message = str()
 
     for letter in message:
-        encrypte_message += encrypte_cesar(letter, list_letter, clef)
+        encrypt_message += encrypte_cesar(letter, list_letter, clef)
 
-    print(encrypte_message)
+    print(encrypt_message)
 
 
